@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Blood Bank</title>
+    <link rel="icon" href="images/giphy.gif">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,700,800" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/utils.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/login.css">
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"> Blood Bank <i class="icon-heart" aria-hidden="true"></i></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="blood_request.html" class="nav-link">Blood request</a></li>
+                    <li class="nav-item"><a href="blood_donor.html" class="nav-link">Blood donor</a></li>
+                    <li class="nav-item"><a href="blood_bank.html" class="nav-link">Add Blood Bank</a></li>
+                    <li class="nav-item"><a href="blood_stock.html" class="nav-link"><span>Check Blood stock</span></a></li>
+                    <li class="nav-item"><a href="blood_camp.html" class="nav-link"><span>Blood Camp</span></a></li>
+                    <li class="nav-item cta"><a href="register.html" class="nav-link"><span>Sign up</span></a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap js-fullheight">
+        <div class="overlay"></div>
+        <div id="particles-js"></div>
+        <div class="py-3 wrap-login100 bg-white pcontainInnerHoriz">
+            <form class="login100-form validate-form bg-white">
+                <!--Title-->
+                <span class="pb-3 pt-3 login100-form-title">
+					Sign In
+				</span>
+                <!--End Title-->
+                <!--Inputs-->
+                <div class="wrap-input100 validate-input m-b-10" data-validate="Enter state">
+                    <label for="State">State</label>
+                    <select class="input100" name="State" id="State">
+                        <option value="35">Andaman &amp; Nicobar Islands</option>
+                        <option value="28">Andhra Pradesh</option>
+                        <option value="12">Arunachal Pradesh</option>
+                        <option value="18">Assam</option>
+                        <option value="10">Bihar</option>
+                        <option value="94">Chandigarh</option>
+                        <option value="22">Chhattisgarh</option>
+                        <option value="26">Dadra &amp; Nagar Haveli</option>
+                        <option value="25">Daman &amp; Diu</option>
+                        <option value="97">Delhi</option>
+                        <option value="30">Goa</option>
+                        <option value="24">Gujarat</option>
+                        <option value="96">Haryana</option>
+                        <option value="92">Himachal Pradesh</option>
+                        <option value="91">Jammu and Kashmir</option>
+                        <option value="20">Jharkhand</option>
+                        <option value="29">Karnataka</option>
+                        <option value="32">Kerala</option>
+                        <option value="37">Ladakh</option>
+                        <option value="31">Lakshadweep</option>
+                        <option value="23">Madhya Pradesh</option>
+                        <option value="27">Maharashtra</option>
+                        <option value="14">Manipur</option>
+                        <option value="17">Meghalaya</option>
+                        <option value="15">Mizoram</option>
+                        <option value="13">Nagaland</option>
+                        <option value="21">Odisha</option>
+                        <option value="34">Puducherry</option>
+                        <option value="93">Punjab</option>
+                        <option value="98">Rajasthan</option>
+                        <option value="11">Sikkim</option>
+                        <option value="33">Tamil Nadu</option>
+                        <option value="36">Telangana</option>
+                        <option value="16">Tripura</option>
+                        <option value="95">Uttarakhand</option>
+                        <option value="99">Uttar Pradesh</option>
+                        <option value="19">West Bengal</option>
+                    </select>
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input m-b-10" data-validate="Enter district">
+                    <input class="input100" type="text" name="District" placeholder="District">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input m-b-10" data-validate="Enter Blood bank name">
+                    <input class="input100" type="text" name="blood bank name" placeholder="Blood Bank name">
+                    <span class="focus-input100"></span>
+                </div>
+                <div class="wrap-input100 validate-input m-b-10" data-validate="Enter category">
+                    <label for="category">Category</label>
+                    <select class="input100" name="category" id="category">
+                        <option value="35">Govt</option>
+                        <option value="28">Red Cross</option>
+                        <option value="28">Private</option>
+                    <span class="focus-input100"></span>
+                    </select>
+                </div>
+                <div class="wrap-input100 validate-input m-b-10" data-validate="Enter license">
+                    <input class="input100" type="number" name="license" placeholder="License number">
+                    <span class="focus-input100"></span>
+                </div>
+
+                
+                
+                
+
+                <!--End Inputs-->
+                <!--Remember Me and Forgot Me-->
+                
+               
+                <!--End Remember Me and Forgot Me-->
+                <!--Login Button-->
+                <div class="container-login100-form-btn pt-2">
+                    <button class="login100-form-btn btn">
+						Add
+					</button>
+                </div>
+                <!--End Login Button-->
+                <!--Login with social media-->
+                
+                <!--End Login with social media-->
+            </form>
+        </div>
+    </div>
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/bootstrap-datepicker.js"></script>
+    <script src="js/jquery.timepicker.min.js"></script>
+    <script src="js/particles.min.js"></script>
+    <script src="js/particle.js"></script>
+    <script src="js/scrollax.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+    <script src="js/google-map.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+
+</html>
